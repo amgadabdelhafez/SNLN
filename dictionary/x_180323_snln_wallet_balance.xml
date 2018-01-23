@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Wallet Balance " max_length="40" name="x_180323_snln_wallet_balance" type="collection">
+        <element label="Confirmed balance" max_length="40" name="confirmed_balance" type="string"/>
+        <element label="Total balance" max_length="40" name="total_balance" type="string"/>
+        <element label="Unconfirmed balance" max_length="40" name="unconfirmed_balance" type="string"/>
+    </element>
+</database>

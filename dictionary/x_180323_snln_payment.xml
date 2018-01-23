@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Payment" max_length="40" name="x_180323_snln_payment" type="collection">
+        <element label="Created" max_length="40" name="creation_date" type="string"/>
+        <element label="Fee" max_length="40" name="fee" type="string"/>
+        <element label="Path" max_length="40" name="path" type="string"/>
+        <element label="Payment hash" max_length="40" name="payment_hash" type="string"/>
+        <element label="Value" max_length="40" name="value" type="string"/>
+    </element>
+</database>

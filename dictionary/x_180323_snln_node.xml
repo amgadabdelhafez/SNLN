@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Node Info" max_length="40" name="x_180323_snln_node" type="collection">
+        <element label="Alias" max_length="40" name="alias" type="string"/>
+        <element choice="3" label="Chains" max_length="40" name="blockchain" type="choice">
+            <choice/>
+        </element>
+        <element label="Block hash" max_length="40" name="block_hash" type="string"/>
+        <element label="Block height" max_length="40" name="block_height" type="integer"/>
+        <element label="Node pubkey" max_length="40" name="identity_pubkey" type="string"/>
+        <element label="Active channels" max_length="40" name="num_active_channels" type="integer"/>
+        <element label="Number of Peers" max_length="40" name="num_peers" type="integer"/>
+        <element label="Pending channels" max_length="40" name="num_pending_channels" type="integer"/>
+        <element label="Synced to chain" max_length="40" name="synced_to_chain" type="boolean"/>
+        <element label="Testnet" max_length="40" name="testnet" type="boolean"/>
+        <element label="Node URI" max_length="40" name="uris" type="string"/>
+    </element>
+</database>

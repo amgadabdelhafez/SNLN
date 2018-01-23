@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Invoice" max_length="40" name="x_180323_snln_invoice" type="collection">
+        <element label="Cltv expiry" max_length="40" name="cltv_expiry" type="string"/>
+        <element label="Created" max_length="40" name="creation_date" type="string"/>
+        <element label="Description hash" max_length="40" name="description_hash" type="string"/>
+        <element label="Expiry" max_length="40" name="expiry" type="string"/>
+        <element label="Fallback addr" max_length="40" name="fallback_addr" type="string"/>
+        <element label="Memo" max_length="40" name="memo" type="string"/>
+        <element label="Payment request" max_length="40" name="payment_request" type="string"/>
+        <element label="Receipt" max_length="40" name="receipt" type="string"/>
+        <element label="R hash" max_length="40" name="r_hash" type="string"/>
+        <element label="R preimage" max_length="40" name="r_preimage" type="string"/>
+        <element label="Settled" max_length="40" name="settled" type="string"/>
+        <element label="Settle date" max_length="40" name="settle_date" type="string"/>
+        <element label="Value" max_length="40" name="value" type="string"/>
+    </element>
+</database>

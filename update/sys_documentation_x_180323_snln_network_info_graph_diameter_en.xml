@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="graph_diameter" label="Graph diameter" language="en" table="x_180323_snln_network_info">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>graph_diameter</element>
+            <help/>
+            <hint/>
+            <label>Graph diameter</label>
+            <language>en</language>
+            <name>x_180323_snln_network_info</name>
+            <plural>Graph diameters</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-23 05:06:44</sys_created_on>
+            <sys_id>ce62e242db730300f4a3fbefbf961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Graph diameter</sys_name>
+            <sys_package display_value="SNLN" source="x_180323_snln">f19db764db730300f4a3fbefbf96196a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SNLN">f19db764db730300f4a3fbefbf96196a</sys_scope>
+            <sys_update_name>sys_documentation_x_180323_snln_network_info_graph_diameter_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-23 05:06:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Channel" max_length="40" name="x_180323_snln_channel" type="collection">
+        <element label="Active" max_length="40" name="active" type="string"/>
+        <element label="Capacity&#9;" max_length="40" name="capacity" type="string"/>
+        <element label="Channel point&#9;" max_length="40" name="channel_point" type="string"/>
+        <element label="Channel Id&#9;" max_length="40" name="chan_id" type="string"/>
+        <element label="Commit fee" max_length="40" name="commit_fee" type="string"/>
+        <element label="Commit weight" max_length="40" name="commit_weight" type="string"/>
+        <element label="Csv delay" max_length="40" name="csv_delay" type="string"/>
+        <element label="Fee per kw" max_length="40" name="fee_per_kw" type="string"/>
+        <element label="Local balance" max_length="40" name="local_balance" type="string"/>
+        <element label="Num. updates" max_length="40" name="num_updates" type="string"/>
+        <element label="Peer alias&#9;" max_length="40" name="peer_alias" type="string"/>
+        <element label="Pend. HTLCs" max_length="40" name="pending_htlcs" type="string"/>
+        <element label="Remote balance" max_length="40" name="remote_balance" type="string"/>
+        <element label="Remote pubkey&#9;" max_length="40" name="remote_pubkey" type="string"/>
+        <element label="Sat. recv" max_length="40" name="total_satoshis_received" type="string"/>
+        <element label="Sat. sent" max_length="40" name="total_satoshis_sent" type="string"/>
+        <element label="Unsettled balance" max_length="40" name="unsettled_balance" type="string"/>
+    </element>
+</database>

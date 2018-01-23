@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>ssh command</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-01-20 19:35:36</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var probe = new Packages.com.snc.discovery.Probe();  
+probe.setName("uptime");  
+probe.setTopic("SSHCommand");  
+probe.setAgent("Fekra_MID_Server");  
+probe.setSource("13.92.80.164");  
+probe.addParameter("port", 22);  
+probe.addParameter("skip_sensor", "true");  
+probe.create();  ]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-20 19:36:03</sys_created_on>
+        <sys_id>348c0259db3f0300f4a3fbefbf9619a0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ssh command</sys_name>
+        <sys_package display_value="SNLN" source="x_180323_snln">f19db764db730300f4a3fbefbf96196a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNLN">f19db764db730300f4a3fbefbf96196a</sys_scope>
+        <sys_update_name>sysauto_script_348c0259db3f0300f4a3fbefbf9619a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-20 19:36:48</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

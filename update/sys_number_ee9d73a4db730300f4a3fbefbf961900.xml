@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_180323_snln_transaction">x_180323_snln_transaction</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SNLN</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-18 19:54:15</sys_created_on>
+        <sys_id>ee9d73a4db730300f4a3fbefbf961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SNLN</sys_name>
+        <sys_package display_value="SNLN" source="x_180323_snln">f19db764db730300f4a3fbefbf96196a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNLN">f19db764db730300f4a3fbefbf96196a</sys_scope>
+        <sys_update_name>sys_number_ee9d73a4db730300f4a3fbefbf961900</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-18 19:54:15</sys_updated_on>
+    </sys_number>
+</record_update>

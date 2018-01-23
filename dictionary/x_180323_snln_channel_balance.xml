@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Channel Balance " max_length="40" name="x_180323_snln_channel_balance" type="collection">
+        <element label="Balance" max_length="40" name="balance" type="string"/>
+    </element>
+</database>

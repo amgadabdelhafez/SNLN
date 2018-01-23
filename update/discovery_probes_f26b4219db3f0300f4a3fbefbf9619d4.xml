@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="discovery_probes">
+    <discovery_probes action="INSERT_OR_UPDATE">
+        <cache_results>false</cache_results>
+        <classic_mode>false</classic_mode>
+        <description/>
+        <ecc_queue_name>/home/admin_1/gocode/bin/btcctl --testnet --rpcuser=kek --rpcpass=kek getinfo</ecc_queue_name>
+        <ecc_queue_source/>
+        <ecc_queue_topic>SSHCommand</ecc_queue_topic>
+        <host_classification>false</host_classification>
+        <major_version>1</major_version>
+        <minor_version>0</minor_version>
+        <name>test ssh</name>
+        <post_processor_script><![CDATA[new ProbePostProcessor({
+
+    /**
+     * Runs the probe instance
+     */    
+    process : function() {     	
+		// Parse the input
+        var uptime = 0;
+        var lines = output.split('\n');
+	},    
+    type: "ProbePostProcessor"
+});]]></post_processor_script>
+        <script/>
+        <sys_class_name>discovery_probes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-20 19:31:52</sys_created_on>
+        <sys_id>f26b4219db3f0300f4a3fbefbf9619d4</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>test ssh</sys_name>
+        <sys_package display_value="SNLN" source="x_180323_snln">f19db764db730300f4a3fbefbf96196a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNLN">f19db764db730300f4a3fbefbf96196a</sys_scope>
+        <sys_update_name>discovery_probes_f26b4219db3f0300f4a3fbefbf9619d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-20 20:21:28</sys_updated_on>
+        <type>Java</type>
+        <used_by_discovery>false</used_by_discovery>
+        <used_by_runbook>false</used_by_runbook>
+    </discovery_probes>
+</record_update>

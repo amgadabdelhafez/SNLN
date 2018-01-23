@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Peer" max_length="40" name="x_180323_snln_peer" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Alias" max_length="40" name="alias" type="string"/>
+        <element label="Bytes Recieved" max_length="40" name="bytes_recv" type="string"/>
+        <element label="Bytes Sent" max_length="40" name="bytes_sent" type="string"/>
+        <element label="Inbound" max_length="40" name="inbound" type="string"/>
+        <element label="Lastseen" max_length="40" name="lastseen" type="string"/>
+        <element label="Last seen&#9;" max_length="40" name="last_seen" type="string"/>
+        <element label="Peer ID" max_length="40" name="peer_id" type="string"/>
+        <element label="Ping time" max_length="40" name="ping_time" type="string"/>
+        <element label="Pubkey" max_length="40" name="pub_key" type="string"/>
+        <element label="Satochis Sent" max_length="40" name="sat_recv" type="string"/>
+        <element label="Satochis Sent" max_length="40" name="sat_sent" type="string"/>
+    </element>
+</database>

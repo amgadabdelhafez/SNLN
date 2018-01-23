@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Pending Channels " max_length="40" name="x_180323_snln_pending_channels" type="collection">
+        <element label="Pending closing channels" max_length="40" name="pending_closing_channels" type="string"/>
+        <element label="Pending force closing channels" max_length="40" name="pending_force_closing_channels" type="string"/>
+        <element label="Pending open channels" max_length="40" name="pending_open_channels" reference="x_180323_snln_channel" type="reference"/>
+        <element label="Total limbo balance" max_length="40" name="total_limbo_balance" type="string"/>
+    </element>
+</database>
